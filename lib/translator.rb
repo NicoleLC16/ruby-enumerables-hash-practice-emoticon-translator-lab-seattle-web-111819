@@ -20,7 +20,7 @@ def get_japanese_emoticon (file, emoticon)
   if japanese_emoticon
     japanese_emoticon
   else
-    japanese_emoticon
+    sorry_message
   end
 end
 
