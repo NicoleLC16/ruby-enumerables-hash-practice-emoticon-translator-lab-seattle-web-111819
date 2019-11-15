@@ -18,6 +18,7 @@ def get_japanese_emoticon (file, emoticon)
   emoticon_library = load_library (file)
   emoticon_library["get_emoticon"][emoticons] = japanese_emoticon
   if emoticon == nil
+    
 end
 
 def get_english_meaning
