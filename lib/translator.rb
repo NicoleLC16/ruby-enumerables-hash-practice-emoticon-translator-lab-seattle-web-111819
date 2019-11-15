@@ -14,8 +14,13 @@ load_emoticon.each do |word, emoticons|
   emoticon_library
 end
 
-def get_japanese_emoticon (file_path, emoticon)
-
+def get_japanese_emoticon (path, emoticon)
+  load_library(path)["get_emoticon"].each_pair do |key, value| 
+    if key == emoticon
+      return value
+    end
+  end
+   return "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning
