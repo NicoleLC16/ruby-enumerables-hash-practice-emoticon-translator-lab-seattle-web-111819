@@ -15,7 +15,8 @@ load_emoticon.each do |word, emoticons|
 end
 
 def get_japanese_emoticon (file, emoticon)
-  load_library(file)
+  load_library(file) = return_japanese
+  return_japanese["get_emoticon"][emoticon]
 end
 
 def get_english_meaning
