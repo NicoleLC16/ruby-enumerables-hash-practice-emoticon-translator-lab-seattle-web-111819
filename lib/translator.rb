@@ -15,12 +15,7 @@ load_emoticon.each do |word, emoticons|
 end
 
 def get_japanese_emoticon (file, emoticon)
-  load_library (file) = return_emoticon
-  return_emoticon["get_emoticon"][emoticon] = equivalent_emoticon
-  if emoticon == nil 
-    puts "Sorry, that emoticon was not found"
-  else
-    equivalent_emoticon
+
 end
 
 def get_english_meaning
