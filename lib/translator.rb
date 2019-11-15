@@ -18,7 +18,7 @@ def get_japanese_emoticon (file, emoticon)
   emoticon_library = load_library (file)
   emoticon_library["get_emoticon"][emoticon] = japanese_emoticon
   if japanese_emoticon == nil
-    japanese_emoticon = "Sorry, that emoticon was not found"
+    puts "Sorry, that emoticon was not found"
   else
     japanese_emoticon
   end
